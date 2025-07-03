@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Container version="2">
+    <Name>shrtn</Name>
+    <Repository>cordlessWool/shrtn</Repository>
+    <Branch>
+        <Tag>latest</Tag>
+        <TagDescription>latest stable release</TagDescription>
+    </Branch>
+    <Registry>https://hub.docker.com/r/cordlesswool/shrtn</Registry>
+    <Network>bridge</Network>
+    <MyIP/>
+    <Shell>sh</Shell>
+    <Privileged>false</Privileged>
+    <Support>https://github.com/CordlessWool/shrtn</Support>
+    <Project>https://shrtn.io/</Project>
+    <Overview>Launch your own privacy-first URL shortener in minutes. Whether you choose Docker or a native install, you’ll have a fast, lightweight service running on your own server—no third parties required.</Overview>
+    <Category>Other</Category>
+    <WebUI/>
+    <TemplateURL/>
+    <Icon>static/android-chrome-192x192.png</Icon>
+    <ExtraParams/>
+    <PostArgs/>
+    <CPUset/>
+    <DateInstalled>1693728389</DateInstalled>
+    <DonateText>Donations</DonateText>
+    <DonateLink>https://ko-fi.com/sebastienvermeille</DonateLink>
+    <Requires/>
+    <Config Name="shrtn port" Target="SHRTN_PORT" Default="3001" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">3001</Config>
+    <Config Name="" Target="/data" Default="/mnt/user/shrtn" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false"/>
+</Container>
