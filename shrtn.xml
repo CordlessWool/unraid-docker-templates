@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
     <Name>shrtn</Name>
-    <Repository>cordlessWool/shrtn</Repository>
+    <Repository>cordlesswool/shrtn</Repository>
     <Branch>
         <Tag>latest</Tag>
         <TagDescription>latest stable release</TagDescription>
