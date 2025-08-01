@@ -15,15 +15,14 @@
     <Project>https://shrtn.io/</Project>
     <Overview>Launch your own privacy-first URL shortener in minutes. Whether you choose Docker or a native install, you’ll have a fast, lightweight service running on your own server—no third parties required.</Overview>
     <Category>Other</Category>
-    <WebUI/>
+    <WebUI>http://[IP]:[PORT:3001]</WebUI>
     <TemplateURL/>
-    <Icon>static/android-chrome-192x192.png</Icon>
     <ExtraParams/>
     <PostArgs/>
     <CPUset/>
     <DateInstalled>1693728389</DateInstalled>
     <Requires/>
-    <Config Name="shrtn port" Target="SHRTN_PORT" Default="3001" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">3001</Config>
-    <Config Name="" Target="/data" Default="/mnt/user/shrtn" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false"/>
+    <Config Name="Port" Target="3001" Default="3001" Mode="tcp" Description="WebUI Port" Type="Variable" Display="always" Required="false" Mask="false">3001</Config>
+    <Config Name="" Target="/data" Default="/mnt/user/appdata/shrtn" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false"/>
     <Icon>https://raw.githubusercontent.com/cordlessWool/shrtn/main/static/android-chrome-192x192.png</Icon>
 </Container>
