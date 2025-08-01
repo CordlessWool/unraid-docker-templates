@@ -22,9 +22,8 @@
     <PostArgs/>
     <CPUset/>
     <DateInstalled>1693728389</DateInstalled>
-    <DonateText>Donations</DonateText>
-    <DonateLink>https://ko-fi.com/sebastienvermeille</DonateLink>
     <Requires/>
     <Config Name="shrtn port" Target="SHRTN_PORT" Default="3001" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">3001</Config>
     <Config Name="" Target="/data" Default="/mnt/user/shrtn" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false"/>
+    <Icon>https://raw.githubusercontent.com/cordlessWool/shrtn/main/static/android-chrome-192x192.png</Icon>
 </Container>
