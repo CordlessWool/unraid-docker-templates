@@ -23,6 +23,7 @@
     <DateInstalled>1693728389</DateInstalled>
     <Requires/>
     <Config Name="Port" Target="3001" Default="3001" Mode="tcp" Description="WebUI Port" Type="Variable" Display="always" Required="false" Mask="false">3001</Config>
-    <Config Name="" Target="/data" Default="/mnt/user/appdata/shrtn" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false"/>
+    <Config Name="Data" Target="/data" Default="/mnt/user/appdata/shrtn" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false"/>
+    <Config Name="ORIGIN" Type="Variable" Target="ORIGIN" Default="https://url.example.com" Description="Origin URL" Display="always" Required="true" Mask="false"/>
     <Icon>https://raw.githubusercontent.com/cordlessWool/shrtn/main/static/android-chrome-192x192.png</Icon>
 </Container>
