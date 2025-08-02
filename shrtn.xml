@@ -1,29 +1,29 @@
 <?xml version="1.0"?>
 <Container version="2">
-    <Name>shrtn</Name>
-    <Repository>cordlesswool/shrtn</Repository>
-    <Branch>
-        <Tag>latest</Tag>
-        <TagDescription>latest stable release</TagDescription>
-    </Branch>
-    <Registry>https://hub.docker.com/r/cordlesswool/shrtn</Registry>
-    <Network>bridge</Network>
-    <MyIP/>
-    <Shell>sh</Shell>
-    <Privileged>false</Privileged>
-    <Support>https://github.com/CordlessWool/shrtn</Support>
-    <Project>https://shrtn.io/</Project>
-    <Overview>Launch your own privacy-first URL shortener in minutes. Whether you choose Docker or a native install, you’ll have a fast, lightweight service running on your own server—no third parties required.</Overview>
-    <Category>Other</Category>
-    <WebUI>http://[IP]:[PORT:3001]</WebUI>
-    <TemplateURL/>
-    <ExtraParams/>
-    <PostArgs/>
-    <CPUset/>
-    <DateInstalled>1693728389</DateInstalled>
-    <Requires/>
-    <Config Name="Port" Target="3001" Default="3001" Mode="tcp" Description="WebUI Port" Type="Variable" Display="always" Required="false" Mask="false">3001</Config>
-    <Config Name="Data" Target="/data" Default="/mnt/user/appdata/shrtn" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false"/>
-    <Config Name="ORIGIN" Type="Variable" Target="ORIGIN" Default="https://url.example.com" Description="Origin URL" Display="always" Required="true" Mask="false"/>
-    <Icon>https://raw.githubusercontent.com/cordlessWool/shrtn/main/static/android-chrome-192x192.png</Icon>
+  <Name>shrtn</Name>
+  <Repository>cordlesswool/shrtn</Repository>
+  <Registry>https://hub.docker.com/r/cordlesswool/shrtn/</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/CordlessWool/shrtn</Support>
+  <Project>https://shrtn.io/</Project>
+  <Overview>Your own private URL-Shortener.&#xD;
+Simple setup, no extra containers.</Overview>
+  <Category>Other:</Category>
+  <WebUI>http://[IP]:[PORT:3001]</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/cordlessWool/shrtn/main/static/android-chrome-192x192.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1754148848</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Port" Target="3001" Default="3001" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">3001</Config>
+  <Config Name="ORIGIN" Target="ORIGIN" Default="https://localhost:3001" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">https://localhost:3001</Config>
+  <Config Name="Data" Target="/data" Default="/mnt/user/appdata/shrtn" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/shrtn</Config>
+  <TailscaleStateDir/>
 </Container>
